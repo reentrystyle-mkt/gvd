@@ -132,7 +132,11 @@ export function FeaturedServicesSection() {
               className="flex items-center justify-between gap-3 rounded-[32px] border-2 border-navy/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold"
             >
               <span className="font-bold tracking-tight text-navy">
-                {f.title}
+                {f.title.split("\n").map((line, li) => (
+                  <span key={li} className="block">
+                    {line}
+                  </span>
+                ))}
               </span>
               <button
                 type="button"
@@ -172,7 +176,7 @@ export function FeaturedServicesSection() {
                 <X className="h-5 w-5" />
               </button>
               <h3 className="pr-6 text-xl font-extrabold tracking-tight text-navy">
-                {openService.title}
+                {openService.title.replace("\n", " ")}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-navy/70">
                 {openService.info}

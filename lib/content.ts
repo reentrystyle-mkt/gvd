@@ -68,15 +68,15 @@ export type FeaturedService = {
 
 export const FEATURED_SERVICES: FeaturedService[] = [
   {
-    title: "Renovación de oblea en el acto",
+    title: "Renovación de oblea\nen el acto",
     info: "Renovamos tu oblea vencida en el momento, sin dejar el auto ni sacar turno previo.",
   },
   {
-    title: "Conversión 5ta generación 60L en el día",
+    title: "Conversión 5ta generación\n60L en el día",
     info: "Equipo de última generación con tanque de 60 litros, instalado y certificado el mismo día.",
   },
   {
-    title: "Conversión con Landi Renzo en el día",
+    title: "Conversión con Landi Renzo\nen el día",
     info: "Instalamos equipos de Landi Renzo, marca líder mundial en GNC, con garantía y certificación oficial.",
   },
   {
