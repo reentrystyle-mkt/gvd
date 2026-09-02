@@ -146,7 +146,7 @@ export function FeaturedServicesSection() {
         </div>
         <Reveal
           delay={0.3}
-          className="mt-6 flex flex-col items-center justify-between gap-4 rounded-[28px] border-2 border-navy/10 bg-white p-5 sm:flex-row"
+          className="mt-6 flex flex-col items-center justify-between gap-4 rounded-[28px] border-2 border-gold bg-white p-5 sm:flex-row"
         >
           <div>
             <p className="font-extrabold tracking-tight text-navy">
@@ -244,7 +244,7 @@ export function About() {
             alt="Equipo de GVD Gas GNC"
             width={700}
             height={1050}
-            className="h-80 w-full object-cover sm:h-[28rem]"
+            className="h-auto w-full object-contain"
           />
         </Reveal>
       </div>
@@ -324,9 +324,9 @@ export function Contact() {
           </div>
           <CtaButton
             href={WHATSAPP_LINK("Hola! Quiero pedir mi turno o presupuesto.")}
-            className="mt-6 px-7 py-3.5 text-base"
+            className="mt-6 px-7 py-3.5 text-center text-base"
           >
-            Coordinemos tu turno — sin cargo, sin vueltas
+            Coordinemos tu turno, sin cargo
           </CtaButton>
         </Reveal>
         <Reveal delay={0.15} className="overflow-hidden rounded-[32px]">

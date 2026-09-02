@@ -112,7 +112,7 @@ export default function ServicesCarousel() {
                           }`}
                         >
                           {isHighlight && (
-                            <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gold px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-navy">
+                            <span className="whitespace-nowrap rounded-full bg-gold px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-navy">
                               Destacado
                             </span>
                           )}

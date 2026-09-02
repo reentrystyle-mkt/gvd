@@ -55,9 +55,9 @@ export const SERVICES = [
     body: "Mantenimiento general del auto",
   },
   {
-    icon: "package",
-    title: "Venta de repuestos GNC",
-    body: "Piezas y accesorios originales",
+    icon: "handshake",
+    title: "Servicio a talleres",
+    body: "Renovamos trámites a más de 30 talleres de la zona",
   },
 ] as const;
 
@@ -119,7 +119,7 @@ export const BACKING: BackingBadge[] = [
 ];
 
 export const CONTACT = {
-  address: "Av. Don Bosco 5226 esq. Albarracín, Rafael Castillo, Zona Oeste",
+  address: "Av. Don Bosco 6700 esq. Albarracín, Rafael Castillo, Zona Oeste",
   phones: ["11 2698-5198", "4485-0725"],
   instagram: "@gvdgasgnc",
   mapEmbedSrc:
