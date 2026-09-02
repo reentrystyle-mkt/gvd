@@ -123,5 +123,5 @@ export const CONTACT = {
   phones: ["11 2698-5198", "4485-0725"],
   instagram: "@gvdgasgnc",
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Av.+Don+Bosco+5226,+Rafael+Castillo&output=embed",
+    "https://www.google.com/maps?q=GVDGAS,+Av.+Don+Bosco+6700,+B1756+Rafael+Castillo,+Provincia+de+Buenos+Aires&output=embed",
 };
