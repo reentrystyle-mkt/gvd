@@ -144,44 +144,6 @@ export function FeaturedServicesSection() {
             </Reveal>
           ))}
         </div>
-        <Reveal
-          delay={0.3}
-          className="mt-6 flex flex-col items-center justify-between gap-4 rounded-[28px] border-2 border-gold bg-white p-5 sm:flex-row"
-        >
-          <div>
-            <p className="font-extrabold tracking-tight text-navy">
-              {FINANCING_NOTE}
-            </p>
-            <p className="text-sm text-navy/60">{FINANCING_DETAIL}</p>
-          </div>
-          <div className="flex items-center gap-4">
-            <Image
-              src={assetPath("/logo-visa.svg")}
-              alt="Visa"
-              width={62}
-              height={20}
-              className="object-contain"
-              style={{ height: "20px", width: "auto" }}
-            />
-            <Image
-              src={assetPath("/logo-mastercard.svg")}
-              alt="Mastercard"
-              width={45}
-              height={28}
-              className="object-contain"
-              style={{ height: "28px", width: "auto" }}
-            />
-            <Image
-              src={assetPath("/logo-americanexpress.svg")}
-              alt="American Express"
-              width={28}
-              height={28}
-              className="object-contain"
-              style={{ height: "28px", width: "auto" }}
-            />
-            <span className="text-sm font-medium text-navy/50">y más</span>
-          </div>
-        </Reveal>
       </div>
 
       <AnimatePresence>

@@ -30,14 +30,16 @@ export default function Header() {
         }`}
       >
         <div className="flex items-center justify-between px-3 py-1.5 sm:px-5">
-          <Image
-            src={assetPath("/logo-gvd.png")}
-            alt="GVD Gas GNC"
-            width={56}
-            height={84}
-            className="h-14 w-auto"
-            priority
-          />
+          <a href="#" aria-label="Ir al inicio">
+            <Image
+              src={assetPath("/logo-gvd.png")}
+              alt="GVD Gas GNC"
+              width={64}
+              height={96}
+              className="h-16 w-auto"
+              priority
+            />
+          </a>
 
           <nav className="hidden items-center gap-6 md:flex">
             {NAV_LINKS.map((link) => (

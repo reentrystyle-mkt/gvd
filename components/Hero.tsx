@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
-import { WHATSAPP_LINK, FINANCING_NOTE, FINANCING_DETAIL } from "@/lib/content";
+import { WHATSAPP_LINK } from "@/lib/content";
 import { assetPath } from "@/lib/asset-path";
 import CtaButton from "@/components/CtaButton";
 
@@ -68,10 +68,6 @@ export default function Hero() {
             Escribinos y te cotizamos sin cargo
           </CtaButton>
         </motion.div>
-
-        <motion.p variants={item} className="text-xs text-white/70 sm:text-sm">
-          {FINANCING_NOTE} · {FINANCING_DETAIL}
-        </motion.p>
       </motion.div>
     </section>
   );
