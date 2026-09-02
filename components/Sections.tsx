@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import CtaButton from "@/components/CtaButton";
+import { assetPath } from "@/lib/asset-path";
 import {
   PILLARS,
   FEATURED_SERVICES,
@@ -155,7 +156,7 @@ export function FeaturedServicesSection() {
           </div>
           <div className="flex items-center gap-4">
             <Image
-              src="/logo-visa.svg"
+              src={assetPath("/logo-visa.svg")}
               alt="Visa"
               width={62}
               height={20}
@@ -163,7 +164,7 @@ export function FeaturedServicesSection() {
               style={{ height: "20px", width: "auto" }}
             />
             <Image
-              src="/logo-mastercard.svg"
+              src={assetPath("/logo-mastercard.svg")}
               alt="Mastercard"
               width={45}
               height={28}
@@ -171,7 +172,7 @@ export function FeaturedServicesSection() {
               style={{ height: "28px", width: "auto" }}
             />
             <Image
-              src="/logo-americanexpress.svg"
+              src={assetPath("/logo-americanexpress.svg")}
               alt="American Express"
               width={28}
               height={28}
@@ -239,7 +240,7 @@ export function About() {
         </Reveal>
         <Reveal delay={0.15} className="overflow-hidden rounded-[32px]">
           <Image
-            src="/foto-equipo.jpg"
+            src={assetPath("/foto-equipo.jpg")}
             alt="Equipo de GVD Gas GNC"
             width={700}
             height={1050}
@@ -274,7 +275,7 @@ export function Backing() {
                 <span className="flex shrink-0 items-center justify-center">
                   {b.type === "logo" ? (
                     <Image
-                      src={b.src}
+                      src={assetPath(b.src)}
                       alt={b.alt}
                       width={140}
                       height={72}
@@ -294,7 +295,7 @@ export function Backing() {
           </div>
           <Reveal delay={0.2} className="overflow-hidden rounded-[32px]">
             <Image
-              src="/foto-elevador.jpg"
+              src={assetPath("/foto-elevador.jpg")}
               alt="Mecánico de GVD Gas trabajando en un auto elevado"
               width={700}
               height={1050}

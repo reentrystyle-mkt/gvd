@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { WHATSAPP_LINK } from "@/lib/content";
+import { assetPath } from "@/lib/asset-path";
 import CtaButton from "@/components/CtaButton";
 
 const NAV_LINKS = [
@@ -30,7 +31,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between px-3 py-1.5 sm:px-5">
           <Image
-            src="/logo-gvd.png"
+            src={assetPath("/logo-gvd.png")}
             alt="GVD Gas GNC"
             width={56}
             height={84}

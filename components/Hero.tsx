@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
 import { WHATSAPP_LINK, FINANCING_NOTE, FINANCING_DETAIL } from "@/lib/content";
+import { assetPath } from "@/lib/asset-path";
 import CtaButton from "@/components/CtaButton";
 
 const container: Variants = {
@@ -21,7 +22,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden px-5 py-16 text-white sm:px-8 sm:py-24">
       <Image
-        src="/foto-hero.jpg"
+        src={assetPath("/foto-hero.jpg")}
         alt="Instalación de equipo de GNC en el taller GVD Gas"
         fill
         priority
