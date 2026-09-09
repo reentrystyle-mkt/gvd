@@ -10,8 +10,6 @@ import { assetPath } from "@/lib/asset-path";
 import {
   PILLARS,
   FEATURED_SERVICES,
-  FINANCING_NOTE,
-  FINANCING_DETAIL,
   ABOUT_PARAGRAPHS,
   BACKING,
   CONTACT,

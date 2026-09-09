@@ -85,9 +85,6 @@ export const FEATURED_SERVICES: FeaturedService[] = [
   },
 ];
 
-export const FINANCING_NOTE = "Hasta 3 cuotas sin interés";
-export const FINANCING_DETAIL = "Con tu tarjeta bancaria preferida, solo los miércoles";
-
 export const ABOUT_PARAGRAPHS = [
   "Fundamos GVD Gas GNC en septiembre de 2002, en Rafael Castillo, cuando la conversión a GNC recién empezaba a crecer en zona oeste. Desde el primer día tuvimos una idea simple: hacer bien lo que otros hacen a medias, y tratar cada auto que entra al taller como si fuera el nuestro.",
   "Somos taller PEC — Productor de Equipos Completos — así que instalamos y certificamos equipos con habilitación oficial. Hacemos algo de mecánica ligera, pero nos dedicamos sobre todo al GNC: colocación de equipos, renovación de obleas, pruebas hidráulicas y cambio de repuestos. Al ser PEC, también le renovamos los trámites a otros talleres habilitados de la zona.",

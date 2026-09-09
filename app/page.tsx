@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import FinancingBar from "@/components/FinancingBar";
 import WhatsappFloat from "@/components/WhatsappFloat";
 import ServicesCarousel from "@/components/ServicesCarousel";
 import {
@@ -18,7 +17,6 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <FinancingBar />
         <Pillars />
         <ServicesCarousel />
         <Savings />
